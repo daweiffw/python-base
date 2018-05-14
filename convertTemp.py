@@ -1,4 +1,4 @@
-#convertTemp.py
+#convertTemp.py 华氏度 摄氏度温度转换，输入温度，通过f和c判断用户输入的是华氏温度还是摄氏温度，然后开始转换
 while (1):
     temp=input("Input the temprature you want to convert:")
     if temp[-1] in ['F','f']:
